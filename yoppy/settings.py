@@ -119,5 +119,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-import django_heroku #追加
-django_heroku.settings(locals()) #追加
