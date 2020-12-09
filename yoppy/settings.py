@@ -128,4 +128,4 @@ try:
     os.path.join(PROJECT_ROOT, 'static'),
  )
 except:
-    pas
+    pass
