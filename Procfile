@@ -1,1 +1,1 @@
-web: gunicorn yoppy.wsgi
+web: gunicorn config.wsgi --log-file -
