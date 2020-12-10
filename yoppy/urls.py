@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from django.conf.urls.static import static
+from django.conf import settings
 
 admin.site.site_title =  'Yoppy Inc.管理ページ' 
 admin.site.site_header = 'Yoppy Inc.管理ページ'
@@ -23,4 +25,4 @@ admin.site.index_title = '管理内容'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",include("sitepage.urls"))
-]
+]+static(settings.STATIC_URL,document_root=setting.STATIC_ROOT)
