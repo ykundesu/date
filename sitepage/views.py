@@ -37,7 +37,7 @@ def date(request,date):
         return render(request,"date.html")
     else:
        listdate = lists.objects.get(pk=date)
-       henkann={"name":listdate.Name,"money":listdate.money,"error":"","form":form,"pkid":str(date)
+       henkann={"name":listdate.Name,"money":listdate.money,"error":"","form":form,"pkid":str(date)}
        return render(request,"date.html",henkann)
 def getok(request):
     return render(request,"getok.html")
