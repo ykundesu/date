@@ -30,6 +30,7 @@
 <h3>値段:{{money}}円</h3>
 <center><h1>購入</h1></center>
 <font color="red">{{error}}</font>
+{{pkid}}
 <form method="post">
   {{ form.as_p }}
   {% csrf_token %}
