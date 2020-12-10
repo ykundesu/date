@@ -25,4 +25,4 @@ admin.site.index_title = '管理内容'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",include("sitepage.urls"))
-] + static("/static/", document_root="/static/")
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
