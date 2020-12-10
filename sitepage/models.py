@@ -7,7 +7,7 @@ class lists(models.Model):
  def __str__(self):
      return self.Name
 class getlist(models.Model):
- getid=models.IntegerField("アイテムid(date/数字←この番号を入力してください)")
+ getid=models.IntegerField("上の数字を入力してください")
  get=models.CharField("アイテム数(例)1LC1st1個)",max_length=50)
  discord=models.CharField("discord(例)ヨッピ太郎#1234)",max_length=50)
  mcid=models.CharField("mcid(例)Yoppychan)",max_length=50)
