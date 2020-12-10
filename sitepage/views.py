@@ -5,7 +5,7 @@ from .forms import getform
 import time
 import discord
 # Create your views here.
-def toppage(request):
+def toppage(request): 
     return render(request,"toppage.html")
 def search(request,name):
     if name:
@@ -37,7 +37,7 @@ def date(request,date):
         return render(request,"date.html")
     else:
        listdate = lists.objects.get(pk=date)
-       henkann={"name":listdate.Name,"money":listdate.money,"error":"","form":form,"pkid":str(listdate.pk)
+       henkann={"name":listdate.Name,"money":listdate.money,"error":"","form":form,"pkid":str(date)
        return render(request,"date.html",henkann)
 def getok(request):
     return render(request,"getok.html")
