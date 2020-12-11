@@ -3,7 +3,7 @@ a=(("対応済み","ok"),(("非対応","no")))
 # Create your models here.
 class lists(models.Model):
  Name=models.CharField("名前",max_length=50)
- money=models.FloatField("金額",validators.MinValueValidator(0.001),validators.MaxValueValidator(9999999999))
+ money=models.FloatField("金額")
  def __str__(self):
      return self.Name
 class getlist(models.Model):
