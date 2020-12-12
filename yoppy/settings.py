@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'HEROKU_POSTGRESQL_GRAY_URL',
         'USER': 'yoppy',
         'PASSWORD': 'Yoppy',
-        'HOST': ' postgres://wwicsouqdsgzhe:f969ae062b798dca0d0936ec07c46980971909a2cba899f5145cbecee919825b@ec2-3-231-48-230.compute-1.amazonaws.com:5432/df35tle7qngovg',
+        'HOST': ' localhost:5432',
         'PORT': '5432',
     }
 }
