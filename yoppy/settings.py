@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'yoppy.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'HEROKU_POSTGRESQL_GRAY_URL',
+        'NAME': ' postgresql-rugged-13044',
         'USER': 'yoppy',
         'PASSWORD': 'Yoppy',
         'HOST': 'localhost',
