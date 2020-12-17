@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'yoppy.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': ' wmepibvbutufm',
+        'NAME': 'yoppyinc',
         'USER': 'wmepibvbutufmo',
         'PASSWORD': '28429edad531ed3012cbae443616b3133a90acd4e16f9c1d65f4fb09fb5e7f30',
         'HOST': 'ec2-52-5-176-53.compute-1.amazonaws.com',
